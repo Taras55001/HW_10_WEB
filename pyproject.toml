@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw-10"
+version = "0.1.0"
+description = ""
+authors = ["Taras55001 <taras5500@gmail.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
