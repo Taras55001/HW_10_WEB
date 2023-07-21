@@ -8,11 +8,15 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-django = "^4.2.3"
 pillow = "^10.0.0"
 psycopg2-binary = "^2.9.6"
 mongoengine = "^0.27.0"
 scrapy = "^2.9.0"
+openai = "^0.27.8"
+pymongo = "^4.4.1"
+django = "^4.2.3"
+dnspython = "^2.4.0"
+python-dotenv = "^1.0.0"
 
 
 [build-system]

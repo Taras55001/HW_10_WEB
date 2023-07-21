@@ -2,6 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a65622-a27e-4efc-bb28-035304e8f287" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/hw_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/hw_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/hw_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/hw_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/templatetags/extract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/registration/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/registration/registration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/utils/add_qoutes_to_mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/utils/add_qoutes_to_mongo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/utils/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/utils/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
@@ -21,6 +46,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="2SZ40xsVA2EyqrBbnicveoEYmBY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,15 +64,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw_project/utils" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw_project/utils/management" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils\management" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_try2\utils" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_try2" />
       <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\hw_project" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils\management\commands" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes\templates\authors" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils\management" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -52,5 +93,16 @@
       <updated>1689340554480</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

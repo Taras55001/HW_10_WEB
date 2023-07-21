@@ -1,8 +1,8 @@
 import json
 from datetime import datetime
 
-from connect import session_hw
-from models import Autor, Post, Tag
+from .connect import session_hw
+from .models import Autor, Post, Tag
 
 autors_json = "./autors.json"
 post_json = "./quotes.json"
@@ -15,7 +15,7 @@ def list_data(file_name):
 
 
 def create_autor(data):
-    autor = Autor(
+    autor = Author(
         fullname=data['fullname'],
         born_date=datetime.strptime(data['born_date'], "%B %d, %Y"),
         born_location=data['born_location'],
@@ -29,7 +29,7 @@ def crate_post(data):
     tags_list = []
     for tag in data.get("tags"):
         tags_list.append(Tag(name=tag))
-    autor = Autor.objects(fullname=data.get("author")).first()
+    autor = Author.objects(fullname=data.get("author")).first()
     post = Post(quote=text,tags=tags_list, author=autor)
     post.save()
 

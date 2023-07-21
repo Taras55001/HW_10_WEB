@@ -9,6 +9,9 @@
           integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     {% load static %}
     <link rel="stylesheet" href="{% static 'quotes/style.css' %}">
+    {% block author_styles %}{% endblock %}
+    {% block add_author_styles %}{% endblock %}
+    {% block add_post_styles %}{% endblock %}
     <title>homework</title>
 </head>
 <body>
@@ -21,15 +24,18 @@
             </div>
             <div class="col-md-4">
                 <p>
-
-                    <a href="{% url 'users:register' %}" class="btn btn-primary">SignUp</a>
-                    <a href="{% url 'users:login' %}" class="btn btn-primary">Login</a>
-                    <a href="{% url 'users:logout' %}" class="btn btn-primary">Logout</a>
-
+                    {% if user.is_authenticated %}
+                        <a href="{% url 'users:add_author' %}" class="btn btn-primary">Add Author</a>
+                        <a href="{% url 'users:add_post' %}" class="btn btn-primary">Add Post</a>
+                        <a href="{% url 'users:logout' %}" class="btn btn-primary">Logout</a>
+                    {% else %}
+                        <a href="{% url 'users:login' %}" class="btn btn-primary">Login</a>
+                        <a href="{% url 'users:register' %}" class="btn btn-primary">Register</a>
+                    {% endif %}
                 </p>
             </div>
         </div>
-
+</div>
 
 {% block content %} {% endblock %}
 </body>
