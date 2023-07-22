@@ -1,0 +1,14 @@
+{% extends 'quotes/base.html' %}
+
+{% block content %}
+    <div style="margin: 20px 50px;">
+        <form method="post" action="{% url 'quotes:feel_site' %}">
+
+    {% csrf_token %}
+    <button type="submit" class="btn btn-primary">Feel site</button>
+    </form>
+    </div>
+    <div style="margin: 20px 50px;">
+<a href="{% url 'quotes:root' %}" class="btn btn-primary">Go to Home</a>
+        </div>
+{% endblock %}

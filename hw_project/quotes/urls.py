@@ -10,4 +10,5 @@ urlpatterns = [
     path('<int:page>', views.main, name='root_paginate'),
     path('generate-quote/', views.generate_quote_view, name='generate_quote'),
     path('quote/', views.show_quote_view, name='show_quote'),
+    path('feel_site/', views.feel_site, name='feel_site'),
     ]

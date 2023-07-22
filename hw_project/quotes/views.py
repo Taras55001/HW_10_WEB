@@ -3,11 +3,12 @@ from django.core.paginator import Paginator
 from .models import Author, Post, Tag
 from users.models import Quote as UserPost, Author as UserAuthor
 from .forms import GenerateQuoteForm
+from .scrap import feel
 from bson import ObjectId
 import openai
 import random
 import time
-
+import subprocess
 
 def main(request, page=1):
     per_page = 10
@@ -72,6 +73,17 @@ def generate_quote_view(request):
     else:
         form = GenerateQuoteForm()
     return render(request, 'quotes/generate_quote.html', {'form': form})
+
+
+def feel_site(request):
+    scrapy_command = ["scrapy", "crawl", "to_scrapy"]
+    try:
+        subprocess.run(scrapy_command, check=True)
+        feel()
+    except subprocess.CalledProcessError as e:
+        print(e)
+    return render(request, 'quotes/feel_site.html')
+
 
 def show_quote_view(request, quote):
 

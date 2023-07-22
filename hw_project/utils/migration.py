@@ -3,7 +3,6 @@ import json
 import django
 import sys
 from datetime import datetime
-from django.utils.timezone import make_aware
 
 
 sys.path.append(os.path.abspath('..'))
@@ -46,7 +45,7 @@ def create_tag(tag_name):
 def create_post(data):
     text = data.get("quote")
     tags_list = [create_tag(tag_data) for tag_data in data.get("tags")]
-    author = Author.objects.get(fullname=data.get("author"))
+    author = data['author']
     post = Post(quote=text, author=author)
     post.save()
     post.tags.set(tags_list)

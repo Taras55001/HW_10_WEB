@@ -4,12 +4,11 @@
     <list default="true" id="b7a65622-a27e-4efc-bb28-035304e8f287" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/scrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/scrap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/generate_quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/generate_quote.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/utils/migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/utils/migration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
