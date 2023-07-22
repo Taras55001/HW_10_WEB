@@ -66,21 +66,3 @@ def add_post_view(request):
     else:
         form = PostForm()
     return render(request, 'quotes/add_post.html', {'form': form})
-
-
-def generate_quote(author_name):
-    prompt = f"Generate a quote by {author_name}: "
-    response = openai.Completion.create(
-        engine="text-davinci-002",  # Use the appropriate GPT-3 engine
-        prompt=prompt,
-        temperature=0.7,
-        max_tokens=100,
-        stop=["\n"]
-    )
-    quote = response['choices'][0]['text'].strip()
-    return quote
-
-def quote_generator(request, author_id):
-    author = Author.objects.get(pk=author_id)
-    quote = generate_quote(author.name)
-    return render(request, 'quote.html', {'quote': quote})

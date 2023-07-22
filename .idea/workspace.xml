@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a65622-a27e-4efc-bb28-035304e8f287" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/hw_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/hw_project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/hw_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/hw_project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/migrations/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/templatetags/extract.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/registration/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/registration/registration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/templates/users/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/users/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/utils/add_qoutes_to_mongo.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/utils/add_qoutes_to_mongo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/utils/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/utils/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/utils/migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/utils/migration.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>

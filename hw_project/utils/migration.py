@@ -3,6 +3,8 @@ import json
 import django
 import sys
 from datetime import datetime
+from django.utils.timezone import make_aware
+
 
 sys.path.append(os.path.abspath('..'))
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "hw_project.settings")
@@ -34,7 +36,7 @@ def create_author(data):
             'description': data['description'],
         }
     )
-
+    return author
 
 def create_tag(tag_name):
     tag, _ = Tag.objects.get_or_create(name=tag_name)
@@ -44,11 +46,11 @@ def create_tag(tag_name):
 def create_post(data):
     text = data.get("quote")
     tags_list = [create_tag(tag_data) for tag_data in data.get("tags")]
-    author = Author.objects.filter(fullname=data.get("author")).first()
+    author = Author.objects.get(fullname=data.get("author"))
     post = Post(quote=text, author=author)
     post.save()
     post.tags.set(tags_list)
-
+    return post
 
 def migrate_data():
     autors = list_data(autors_json)
