@@ -5,7 +5,7 @@ from scrapy.crawler import CrawlerProcess
 from datetime import datetime
 
 
-from utils.migration import  create_post
+from utils.migration import create_post
 from .models import Author, Post
 
 
@@ -42,7 +42,7 @@ class QuotesPipline:
                 )
 
 
-        if 'quote' in adapter.keys() and len(Author.objects.all())==50 and not Post.objects.get(quote=adapter['quote']):
+        if 'quote' in adapter.keys() and len(Author.objects.all())==50:
             post_data = {
                 'quote': adapter['quote'],
                 'tags': adapter['tags'],
@@ -87,3 +87,6 @@ def feel():
     process = CrawlerProcess()
     process.crawl(QuotesSpider)
     process.start()
+
+if __name__ == '__main__':
+    feel()

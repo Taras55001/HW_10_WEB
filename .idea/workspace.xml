@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b7a65622-a27e-4efc-bb28-035304e8f287" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/scrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/scrap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/generate_quote.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/generate_quote.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/quotes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw_project/utils/migration.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/utils/migration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -57,11 +55,11 @@
       <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils" />
-      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\hw_project" />
-      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils\management\commands" />
-      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes\templates\authors" />
-      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\utils\management" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes\quotes\spiders" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\hw_project\module\spiders" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes\quotes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
