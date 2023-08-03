@@ -24,18 +24,19 @@
                 </h1>
             </div>
             <div class="col-md-4">
-                <p>
+                <div class="d-grid gap-2 col-6 mx-auto">
                         <a href="{% url 'quotes:generate_quote' %}" class="btn btn-primary">Generate Quote</a>
-                        <!--<a href="{% url 'quotes:feel_site' %}" class="btn btn-primary">Feel site</a>-->
+                        <a href="{% url 'quotes:feel_site' %}" class="btn btn-primary">Feel site</a>
                     {% if user.is_authenticated %}
                         <a href="{% url 'users:add_author' %}" class="btn btn-primary">Add Author</a>
                         <a href="{% url 'users:add_post' %}" class="btn btn-primary">Add Post</a>
                         <a href="{% url 'users:logout' %}" class="btn btn-primary">Logout</a>
+
                     {% else %}
                         <a href="{% url 'users:login' %}" class="btn btn-primary">Login</a>
                         <a href="{% url 'users:register' %}" class="btn btn-primary">Register</a>
                     {% endif %}
-                </p>
+                            </div>
             </div>
         </div>
 </div>

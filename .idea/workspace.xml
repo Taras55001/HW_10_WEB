@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7a65622-a27e-4efc-bb28-035304e8f287" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hw_project/scrap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/scrap.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/scrap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/templates/quotes/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw_project/quotes/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw_project/quotes/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
@@ -44,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hw_project/utils/management" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HW_11_WEB" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
@@ -57,9 +61,9 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes" />
       <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project" />
+      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\users" />
       <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes\quotes\spiders" />
       <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\hw_project\module\spiders" />
-      <recent name="C:\Users\taras\Desktop\goit2\HW_10_WEB\hw_project\quotes\quotes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,5 +87,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
